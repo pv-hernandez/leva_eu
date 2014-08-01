@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ident_identifica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ident_id_transp"
+        android:layout_alignRight="@+id/ident_id_transp"
+        android:layout_centerVertical="true"
+        android:text="Identificar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ident_identifica"
+        android:layout_centerHorizontal="true"
+        android:text="URL da Aplicação"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ident_app_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ident_identifica"
+        android:layout_alignRight="@+id/ident_identifica"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:inputType="textUri" />
+
+    <EditText
+        android:id="@+id/ident_id_transp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ident_identifica"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ident_id_transp"
+        android:layout_centerHorizontal="true"
+        android:text="ID da Transportadora"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

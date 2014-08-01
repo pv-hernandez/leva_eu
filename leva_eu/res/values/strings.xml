@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Leva Eu</string>
+    <string name="rotas">Rotas</string>
+    <string name="mapa">Mapa</string>
+    <string name="proposta">Fazer proposta</string>
+    <string name="prefs">Preferencias</string>
+
+</resources>
